@@ -44,6 +44,6 @@ public class GoodsServlet extends HttpServlet {
     }
 
     private void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        
+        req.getRequestDispatcher("").forward(req,resp);
     }
 }
